@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "race-tracker",
+    "slug": "race-tracker-bazzola",
+    "version": "1.0.0",
+    "owner": "izirae",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B1A7A6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B1A7A6"
+      },
+      "package": "com.izirae.racetracker"
+    },
+    "web": {
+      "favicon": "./assets/icon.ico"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "105a43a3-14bd-4905-8824-f1a0c789df8d"
+      }
+    }
+  }
+}
