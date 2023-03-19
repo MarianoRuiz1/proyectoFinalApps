@@ -1,9 +1,8 @@
 {
   "expo": {
     "name": "race-tracker",
-    "slug": "race-tracker-bazzola",
+    "slug": "race-tracker",
     "version": "1.0.0",
-    "owner": "izirae",
     "platforms": [
       "ios",
       "android"
@@ -33,7 +32,7 @@
       "package": "com.izirae.racetracker"
     },
     "web": {
-      "favicon": "./assets/icon.ico"
+      "favicon": "./assets/favicon.ico"
     },
     "build": {
       "preview": {
